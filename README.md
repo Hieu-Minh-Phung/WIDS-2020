@@ -72,10 +72,9 @@ Correlataion matrix for numerical (heatmap style)
 hospital_death correlation matrix for top 10 numericals
 ![image](https://user-images.githubusercontent.com/59891364/107322699-91cad980-6a6a-11eb-8d27-a5525521e466.png)
 
-Apache_4a_hospital_death_prob, apache_4a_icu_death_prob,ventilated_apache have the highest correlation with the target.<br/>
+Apache_4a_hospital_death_prob, apache_4a_icu_death_prob,ventilated_apache have the highest correlation with the target.
 
-#Modelling and Predicting
-Deep Learning Model Summary\
+# Modelling and Predicting
 Keras Functional API was used to build the model.Details of model architectures are described below\
 ![image](https://user-images.githubusercontent.com/59891364/107322950-09006d80-6a6b-11eb-8864-e6072adcdf91.png)
 
