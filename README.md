@@ -21,14 +21,7 @@ Machine learning modeling & analysis: logistic regression, KNN, Naive Bayes, Dec
 Exploratory Data Analysis:
 Dataset Features
 TRAIN SET:
-Features + Target
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 91713 entries, 0 to 91712
-Columns: 186 entries, encounter_id to apache_2_bodysystem
-dtypes: float64(170), int64(8), object(8)
-memory usage: 130.1+ MB
-------------------------------------------------------------
-(ROWS, COLUMNS) (91713, 186)
+![image](https://user-images.githubusercontent.com/59891364/107321452-27b13500-6a68-11eb-8714-1a726445a37e.png)
 
 Target distribution
 ![image](https://user-images.githubusercontent.com/59891364/107321284-e1f46c80-6a67-11eb-9f87-5fe7ef41b549.png)
@@ -36,15 +29,8 @@ Target distribution
 	The patient survival prediction dataset has heavily imbalance target as 91.4% of hospital_death are classified as “Alive” (Coded: 0)
 	With this situation, even without any model applied and we set all values to “Alive”, we can still get a high accuracy score of more than 91%. Therefore, in next few steps, we will employ OVERSAMPLING method using SMOTE to increase the “Death” class to achieve a 30:70 ration, meaning- for every 3 “deaths”, there will be 7 “Alive”.
 
-	TEST SET
-Features + Target
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 39308 entries, 0 to 39307
-Columns: 186 entries, encounter_id to apache_2_bodysystem
-dtypes: float64(171), int64(7), object(8)
-memory usage: 55.8+ MB
-------------------------------------------------------------
-(ROWS, COLUMNS) (39308, 186)
+TEST SET
+![image](https://user-images.githubusercontent.com/59891364/107321507-431c4000-6a68-11eb-9b4f-673dcd82f859.png)
 	
 Data Cleansing and Transformation:
 Dropping columns
