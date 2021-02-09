@@ -90,7 +90,7 @@ ROC CURVE\
 CONFUSION MATRIX\
 ![image](https://user-images.githubusercontent.com/59891364/107323510-018d9400-6a6c-11eb-9ad5-0a4171f22a9f.png)
 
-Alas, our FINAL RESULT\
+Alas, our final result on unlabeled TEST SET\
 ![image](https://user-images.githubusercontent.com/59891364/107323626-3699e680-6a6c-11eb-9db1-90ea4855015f.png)
 
 
