@@ -31,8 +31,8 @@ memory usage: 130.1+ MB
 (ROWS, COLUMNS) (91713, 186)
 
 Target distribution
-
-                     
+![image](https://user-images.githubusercontent.com/59891364/107321284-e1f46c80-6a67-11eb-9f87-5fe7ef41b549.png)
+  
 	The patient survival prediction dataset has heavily imbalance target as 91.4% of hospital_death are classified as “Alive” (Coded: 0)
 	With this situation, even without any model applied and we set all values to “Alive”, we can still get a high accuracy score of more than 91%. Therefore, in next few steps, we will employ OVERSAMPLING method using SMOTE to increase the “Death” class to achieve a 30:70 ration, meaning- for every 3 “deaths”, there will be 7 “Alive”.
 
